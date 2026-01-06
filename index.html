@@ -7,90 +7,72 @@
   <meta name="description" content="Residential Asset Risk Management administers renter insurance compliance and default placement programs for property managers in Raleigh-Durham, NC.">
   <meta name="keywords" content="renter insurance, property management, compliance, default placement, Raleigh, NC">
   <meta name="robots" content="index, follow">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
   <style>
-    /* Base */
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      color: #333;
-      background: #f5f5f5;
-    }
-    a {
-      color: #004d99;
-      text-decoration: none;
-    }
+    /* Reset */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #f9f9f9; color: #333; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+
     /* Header */
     header {
-      background: linear-gradient(90deg, #004d99, #0066cc);
+      background: linear-gradient(120deg, #004d99, #0073e6);
       color: #fff;
-      padding: 60px 20px 40px 20px;
       text-align: center;
+      padding: 80px 20px 60px;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
-    header p {
-      margin: 10px 0 0;
-      font-size: 1.2rem;
-    }
-    /* Main Content */
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px 40px 20px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-    }
+    header h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 15px; }
+    header p { font-size: 1.2rem; opacity: 0.9; }
+
+    /* Sections */
+    main { max-width: 900px; margin: -40px auto 40px; padding: 0 20px; }
     section {
+      background: #fff;
+      padding: 40px 30px;
       margin-bottom: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    h2 {
-      color: #004d99;
-      font-size: 1.6rem;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    li {
-      padding: 10px 0;
-      border-bottom: 1px solid #eee;
-    }
-    /* Button */
+    section:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(0,0,0,0.12); }
+    section h2 { font-size: 1.8rem; color: #004d99; margin-bottom: 20px; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+    /* Lists */
+    ul { list-style: none; padding-left: 0; }
+    li { padding: 10px 0; border-bottom: 1px solid #eee; font-weight: 500; }
+
+    /* CTA Button */
     .cta-button {
       display: inline-block;
-      background-color: #004d99;
+      background: #004d99;
       color: #fff;
-      padding: 12px 24px;
-      border-radius: 6px;
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 8px;
       margin-top: 20px;
-      font-weight: bold;
+      transition: background 0.3s ease, transform 0.2s ease;
     }
     .cta-button:hover {
-      background-color: #0066cc;
+      background: #0073e6;
+      transform: translateY(-2px);
     }
+
     /* Footer */
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      padding: 20px;
-      color: #666;
-    }
+    footer { text-align: center; font-size: 0.9rem; padding: 20px 0; color: #666; }
+
+    /* Responsive */
     @media (max-width: 600px) {
-      header h1 { font-size: 1.8rem; }
+      header h1 { font-size: 2rem; }
       header p { font-size: 1rem; }
-      h2 { font-size: 1.4rem; }
+      section h2 { font-size: 1.5rem; }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Residential Asset Risk Management</h1>
     <p>Administering renter insurance compliance & default placement for property managers</p>
@@ -102,7 +84,7 @@
       <ul>
         <li>Renter insurance verification & ongoing monitoring</li>
         <li>Default placement administration (lease-permitted)</li>
-        <li>MGA-partnered insurance programs for your tenants</li>
+        <li>MGA-partnered insurance programs for tenants</li>
       </ul>
     </section>
 
@@ -110,13 +92,13 @@
       <h2>Why Partner With Us</h2>
       <ul>
         <li>Reduce staff workload and save time</li>
-        <li>Ensure compliance across your entire portfolio</li>
-        <li>Peace of mind for management and owners</li>
+        <li>Ensure compliance across your portfolio</li>
+        <li>Peace of mind for property managers and owners</li>
       </ul>
     </section>
 
     <section>
-      <h2>Contact Us</h2>
+      <h2>Get In Touch</h2>
       <p>Email: <a href="mailto:hello@residentialassetrisk.com">hello@residentialassetrisk.com</a></p>
       <p>Phone: (919) XXX-XXXX</p>
       <p>Raleigh-Durham, NC</p>
@@ -127,5 +109,6 @@
   <footer>
     &copy; 2026 Residential Asset Risk Management LLC
   </footer>
+
 </body>
 </html>
